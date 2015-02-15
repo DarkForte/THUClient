@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zero.client"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="com.zero.client.THUClient"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_mod"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.zero.client.LoginActivity"
+            android:label="Login"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.zero.client.AskInputActivity"
+            android:label="请输入起点和终点"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.zero.client.MainMenuActivity"
+            android:label="THUClient"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.zero.client.MapDisplayActivity"
+            android:label="看地图"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.zero.client.StatusActivity"
+            android:label="看看哪堵"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.zero.client.tryActivity"
+            android:label="听说你画了张图？"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.zero.client.ShowNumberActivity"
+            android:label="@string/title_activity_show_number"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.zero.client.SearchActivity"
+            android:label="@string/title_activity_search" >
+        </activity>
+        <activity
+            android:name="com.zero.client.StopActivity"
+            android:label="@string/title_activity_stop" >
+        </activity>
+    </application>
+
+</manifest>

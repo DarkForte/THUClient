@@ -1,0 +1,5 @@
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mapID"
+    android:layout_width="1280dp"
+    android:layout_height="1280dp"
+    android:scaleType="matrix"/>

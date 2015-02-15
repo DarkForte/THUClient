@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/stopback"
+    tools:context=".StopActivity" >
+
+    
+     <ImageView
+        android:id="@+id/currentMapID"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_weight="2"
+        android:layout_marginTop="70dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/r2" />
+
+    <TextView
+        android:id="@+id/mainmenu_textID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="限行路段：学堂路 校史馆路口   → 听涛路口  \n新民路 六教北侧   → 游泳馆路口 \n图示东西向道路全线限行" />
+
+</LinearLayout>

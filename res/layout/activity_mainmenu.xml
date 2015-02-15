@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenu_back"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainMenuActivity" >
+
+    <TableLayout
+        android:id="@+id/mainmenu_btnLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal" >
+		
+        <TableRow>
+            
+            <ImageButton
+	            android:id="@+id/loginBtn"
+	            android:layout_width="140dp"
+	            android:layout_height="140dp"
+	            android:background="#00000000"
+	            android:padding="25dp"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/loginbtn" />
+            
+            <ImageButton
+	            android:id="@+id/askBtn"
+	            android:layout_width="140dp"
+	            android:layout_height="140dp"
+	            android:background="#00000000"
+	            android:padding="25dp"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/askbtn" />
+            
+           
+            
+        </TableRow>
+        
+        <TableRow >
+             <ImageButton
+	            android:id="@+id/statusBtn"
+	            android:layout_width="140dp"
+	            android:layout_height="140dp"
+	            android:background="#00000000"
+	            android:padding="25dp"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/statusbtn" />
+             
+             <ImageButton
+	            android:id="@+id/stopBtn"
+	            android:layout_width="140dp"
+	            android:layout_height="140dp"
+	            android:background="#00000000"
+	            android:padding="25dp"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/stopbtn" />
+             
+        </TableRow>
+        
+        <TableRow>
+            
+	        <ImageButton
+	            android:id="@+id/searchBtn"
+	            android:layout_width="140dp"
+	            android:layout_height="140dp"
+	            android:padding="25dp"
+	            android:background="#00000000"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/searchbtn" />
+        
+	        <ImageButton
+	            android:id="@+id/numberBtn"
+	            android:layout_width="140dp"
+	            android:layout_height="140dp"
+	            android:padding="25dp"
+	            android:background="#00000000"
+	            android:scaleType="fitCenter"
+	            android:src="@drawable/shownumberbtn" />
+	        
+	        
+	    </TableRow>
+        
+    </TableLayout>
+
+   
+
+</LinearLayout>
